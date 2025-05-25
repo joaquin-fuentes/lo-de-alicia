@@ -21,7 +21,7 @@ export function GallerySection() {
           {/* Imagen grande principal */}
           <div className="col-span-2 row-span-2 group cursor-pointer overflow-hidden rounded-2xl">
             <Image
-              src="/placeholder.svg?height=600&width=600"
+              src="https://res.cloudinary.com/dep95zom7/image/upload/v1736040400/Hospedaje-AliciaRodriguez/23957ccf-cd3e-4d31-9419-1d58f00d0457_ktreco.jpg"
               alt="Vista principal del hospedaje"
               width={600}
               height={600}
@@ -32,8 +32,8 @@ export function GallerySection() {
           {/* Imágenes medianas */}
           <div className="group cursor-pointer overflow-hidden rounded-2xl">
             <Image
-              src="/placeholder.svg?height=300&width=300"
-              alt="Habitación principal"
+              src="https://res.cloudinary.com/dep95zom7/image/upload/v1736040400/Hospedaje-AliciaRodriguez/d9ca3d27-4275-4df9-864f-c96bc422941c_i6yzzo.jpg"
+              alt="imagen hospedaje"
               width={300}
               height={300}
               className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
@@ -42,8 +42,8 @@ export function GallerySection() {
 
           <div className="group cursor-pointer overflow-hidden rounded-2xl">
             <Image
-              src="/placeholder.svg?height=300&width=300"
-              alt="Vista de las montañas"
+              src="https://res.cloudinary.com/dep95zom7/image/upload/v1736040400/Hospedaje-AliciaRodriguez/2cea4944-25cb-47b1-8dd3-225108f37e19_kqymxd.jpg"
+              alt="Imagen hospedaje"
               width={300}
               height={300}
               className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
@@ -52,8 +52,8 @@ export function GallerySection() {
 
           <div className="group cursor-pointer overflow-hidden rounded-2xl">
             <Image
-              src="/placeholder.svg?height=300&width=300"
-              alt="Área de descanso"
+              src="https://res.cloudinary.com/dep95zom7/image/upload/v1736040400/Hospedaje-AliciaRodriguez/460cd618-735b-4c76-8684-428a7416a305_nltbqu.jpg"
+              alt="Imagen hospedaje"
               width={300}
               height={300}
               className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
@@ -62,8 +62,8 @@ export function GallerySection() {
 
           <div className="group cursor-pointer overflow-hidden rounded-2xl">
             <Image
-              src="/placeholder.svg?height=300&width=300"
-              alt="Cocina equipada"
+              src="https://res.cloudinary.com/dep95zom7/image/upload/v1736040400/Hospedaje-AliciaRodriguez/b6a9411f-c0bc-415a-a354-3d0627809c9b_umnsoi.jpg"
+              alt="Imagen hospedaje"
               width={300}
               height={300}
               className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
@@ -73,8 +73,8 @@ export function GallerySection() {
           {/* Imagen panorámica */}
           <div className="col-span-2 group cursor-pointer overflow-hidden rounded-2xl">
             <Image
-              src="/placeholder.svg?height=300&width=600"
-              alt="Vista panorámica"
+              src="https://res.cloudinary.com/dep95zom7/image/upload/v1736040400/Hospedaje-AliciaRodriguez/b533ad16-9920-488d-9173-3df8b97cd4ad_jyear6.jpg"
+              alt="Imagen hospedaje"
               width={600}
               height={300}
               className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
@@ -84,8 +84,8 @@ export function GallerySection() {
           {/* Más imágenes pequeñas */}
           <div className="group cursor-pointer overflow-hidden rounded-2xl">
             <Image
-              src="/placeholder.svg?height=300&width=300"
-              alt="Baño completo"
+              src="https://res.cloudinary.com/dep95zom7/image/upload/v1736040400/Hospedaje-AliciaRodriguez/276e87c5-d666-4728-ab5e-9abb7ecfdf32_ajrw6j.jpg"
+              alt="imagen hospeadje"
               width={300}
               height={300}
               className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
@@ -94,7 +94,7 @@ export function GallerySection() {
 
           <div className="group cursor-pointer overflow-hidden rounded-2xl">
             <Image
-              src="/placeholder.svg?height=300&width=300"
+              src="https://res.cloudinary.com/dep95zom7/image/upload/v1736040400/Hospedaje-AliciaRodriguez/2ddf1636-3d8a-4f9b-90c3-ab39cdf44d25_i1pqnv.jpg"
               alt="Jardín"
               width={300}
               height={300}
