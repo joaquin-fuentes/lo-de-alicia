@@ -49,7 +49,7 @@ export function DetailsSection({
         <div className="grid md:grid-cols-2 gap-12 max-w-6xl mx-auto">
           {/* Información general */}
           <Card className="border-green-200 shadow-lg hover:shadow-xl transition-shadow duration-300">
-            <CardHeader className="bg-green-600 text-white rounded-t-lg">
+            <CardHeader className="bg-green-600 text-white">
               <CardTitle className="flex items-center text-2xl">
                 <Bed className="h-6 w-6 mr-2" />
                 Información General
@@ -66,7 +66,7 @@ export function DetailsSection({
                     variant="secondary"
                     className="bg-green-100 text-green-800"
                   >
-                    Hasta 6 personas
+                    Hasta 10 personas
                   </Badge>
                 </div>
                 <div className="flex items-center justify-between">
@@ -78,7 +78,7 @@ export function DetailsSection({
                     variant="secondary"
                     className="bg-green-100 text-green-800"
                   >
-                    3 habitaciones
+                    2 habitaciones
                   </Badge>
                 </div>
                 <div className="flex items-center justify-between">
@@ -90,7 +90,7 @@ export function DetailsSection({
                     variant="secondary"
                     className="bg-green-100 text-green-800"
                   >
-                    2 baños completos
+                    2 baños
                   </Badge>
                 </div>
                 <div className="flex items-center justify-between">
@@ -111,7 +111,7 @@ export function DetailsSection({
 
           {/* Comodidades */}
           <Card className="border-green-200 shadow-lg hover:shadow-xl transition-shadow duration-300">
-            <CardHeader className="bg-green-600 text-white rounded-t-lg">
+            <CardHeader className="bg-green-600 text-white">
               <CardTitle className="flex items-center text-2xl">
                 <Coffee className="h-6 w-6 mr-2" />
                 Comodidades
@@ -121,7 +121,7 @@ export function DetailsSection({
               <div className="grid grid-cols-2 gap-4">
                 <div className="flex items-center text-green-700">
                   <Wifi className="h-5 w-5 mr-2" />
-                  WiFi gratuito
+                  WiFi
                 </div>
                 <div className="flex items-center text-green-700">
                   <Car className="h-5 w-5 mr-2" />
@@ -141,7 +141,7 @@ export function DetailsSection({
                 </div>
                 <div className="flex items-center text-green-700">
                   <Sun className="h-5 w-5 mr-2" />
-                  Terraza con vista
+                  Pileta
                 </div>
               </div>
             </CardContent>
@@ -149,7 +149,7 @@ export function DetailsSection({
 
           {/* Precios */}
           <Card className="border-green-200 shadow-lg hover:shadow-xl transition-shadow duration-300 md:col-span-2">
-            <CardHeader className="bg-green-600 text-white rounded-t-lg">
+            <CardHeader className="bg-green-600 text-white">
               <CardTitle className="flex items-center text-2xl">
                 <Calendar className="h-6 w-6 mr-2" />
                 Tarifas y Disponibilidad
@@ -163,7 +163,7 @@ export function DetailsSection({
                     Temporada Alta
                   </h3>
                   <p className="text-2xl font-bold text-green-600 mb-1">
-                    $15.000
+                    $12.000
                   </p>
                   <p className="text-sm text-green-600">por noche</p>
                   <p className="text-xs text-gray-600 mt-2">Dic - Feb / Jul</p>
@@ -174,7 +174,7 @@ export function DetailsSection({
                     Temporada Media
                   </h3>
                   <p className="text-2xl font-bold text-green-600 mb-1">
-                    $12.000
+                    $10.000
                   </p>
                   <p className="text-sm text-green-600">por noche</p>
                   <p className="text-xs text-gray-600 mt-2">
@@ -190,7 +190,7 @@ export function DetailsSection({
                     10% OFF
                   </p>
                   <p className="text-sm text-green-600">descuento</p>
-                  <p className="text-xs text-gray-600 mt-2">+7 noches</p>
+                  <p className="text-xs text-gray-600 mt-2">+5 noches</p>
                 </div>
               </div>
               <Separator className="my-6" />
