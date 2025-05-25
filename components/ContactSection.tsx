@@ -40,7 +40,7 @@ export function ContactSection({
                 </div>
                 <div className="flex items-center">
                   <Phone className="h-6 w-6 mr-3 text-green-300" />
-                  <span>+54 9 381 412-3456</span>
+                  <span>+54 9 381 5540275</span>
                 </div>
                 <div className="flex items-center">
                   <MessageCircle className="h-6 w-6 mr-3 text-green-300" />

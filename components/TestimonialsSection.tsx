@@ -12,7 +12,8 @@ export function TestimonialsSection() {
             Lo que dicen nuestros huéspedes
           </h2>
           <p className="text-xl text-green-600 max-w-2xl mx-auto">
-            Experiencias reales de quienes ya disfrutaron de Lo de Alicia
+            Experiencias reales de quienes ya disfrutaron de hospedaje Lo de
+            Alicia
           </p>
         </div>
 
@@ -29,9 +30,7 @@ export function TestimonialsSection() {
                 ))}
               </div>
               <p className="text-gray-700 mb-4 italic">
-                &quot Un lugar increíble para desconectar. La vista a las
-                montañas es espectacular y Alicia nos recibió con una calidez
-                única. Volveremos sin dudas. &quot
+                {`"Un lugar increíble para desconectar. La vista a las montañas es espectacular y Alicia nos recibió con una calidez única. Volveremos sin dudas."`}
               </p>
               <div className="flex items-center">
                 <div className="w-10 h-10 bg-green-200 rounded-full flex items-center justify-center mr-3">
@@ -59,9 +58,7 @@ export function TestimonialsSection() {
                 ))}
               </div>
               <p className="text-gray-700 mb-4 italic">
-                &quot Perfecto para familias. Los chicos disfrutaron mucho del
-                espacio y nosotros de la tranquilidad. La casa tiene todo lo
-                necesario y más. &quot
+                {`"Perfecto para familias. Los chicos disfrutaron mucho del espacio y nosotros de la tranquilidad. La casa tiene todo lo necesario y más."`}
               </p>
               <div className="flex items-center">
                 <div className="w-10 h-10 bg-green-200 rounded-full flex items-center justify-center mr-3">
@@ -87,9 +84,7 @@ export function TestimonialsSection() {
                 ))}
               </div>
               <p className="text-gray-700 mb-4 italic">
-                &quot La ubicación es ideal para explorar El Cadillal. La casa
-                es muy cómoda y limpia. Alicia siempre estuvo disponible para
-                cualquier consulta. &quot
+                {`"La ubicación es ideal para explorar El Cadillal. La casa es muy cómoda y limpia. Alicia siempre estuvo disponible para cualquier consulta."`}
               </p>
               <div className="flex items-center">
                 <div className="w-10 h-10 bg-green-200 rounded-full flex items-center justify-center mr-3">
