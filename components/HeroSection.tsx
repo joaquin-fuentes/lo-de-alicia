@@ -15,7 +15,7 @@ export function HeroSection({
   return (
     <section
       id="inicio"
-      className="relative min-h-screen flex items-center justify-center overflow-hidden"
+      className="relative min-h-[92vh] flex items-center justify-center overflow-hidden"
     >
       <div className="absolute inset-0 bg-gradient-to-r from-green-900/70 to-emerald-800/70 z-10"></div>
       <div
@@ -54,7 +54,7 @@ export function HeroSection({
           <Button
             size="lg"
             variant="outline"
-            className="border-white text-white hover:bg-white hover:text-green-800 px-8 py-3 text-lg"
+            className="border-white text-white text-green-800 hover:bg-gray-200 px-8 py-3 text-lg"
             onClick={() =>
               window.open(
                 `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
