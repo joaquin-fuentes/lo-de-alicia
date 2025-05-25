@@ -9,7 +9,7 @@ import { Footer } from "@/components/Footer";
 import { GallerySection } from "@/components/GalerySection";
 
 export default function HomePage() {
-  const whatsappNumber = "5493814123456";
+  const whatsappNumber = "543815540275";
   const whatsappMessage =
     "Hola! Me interesa consultar sobre disponibilidad en Lo de Alicia";
 

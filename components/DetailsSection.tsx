@@ -18,9 +18,9 @@ import {
   Trees,
   Moon,
   Calendar,
-  MessageCircle,
   Users,
 } from "lucide-react";
+import Image from "next/image";
 
 interface DetailsSectionProps {
   whatsappNumber: string;
@@ -210,7 +210,13 @@ export function DetailsSection({
                     )
                   }
                 >
-                  <MessageCircle className="h-5 w-5 mr-2" />
+                  <Image
+                    src={"/logos/wp.png"}
+                    alt="Lo de alicia - Hospedaje"
+                    width={1000}
+                    height={1000}
+                    className="h-5 w-5"
+                  ></Image>{" "}
                   Consultar por WhatsApp
                 </Button>
               </div>
