@@ -66,7 +66,7 @@ export function DetailsSection({
                     variant="secondary"
                     className="bg-green-100 text-green-800"
                   >
-                    Hasta 10 personas
+                    Hasta 7 personas
                   </Badge>
                 </div>
                 <div className="flex items-center justify-between">
