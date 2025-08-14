@@ -1,9 +1,9 @@
 "use client";
 
-import { Button } from "@/components/ui/button";
+// import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Separator } from "@/components/ui/separator";
+// import { Separator } from "@/components/ui/separator";
 import {
   Bed,
   Bath,
@@ -15,12 +15,12 @@ import {
   Tv,
   Wind,
   Sun,
-  Trees,
-  Moon,
-  Calendar,
+  // Trees,
+  // Moon,
+  // Calendar,
   Users,
 } from "lucide-react";
-import Image from "next/image";
+// import Image from "next/image";
 
 interface DetailsSectionProps {
   whatsappNumber: string;
@@ -28,8 +28,8 @@ interface DetailsSectionProps {
 }
 
 export function DetailsSection({
-  whatsappNumber,
-  whatsappMessage,
+  // whatsappNumber,
+  // whatsappMessage,
 }: DetailsSectionProps) {
   return (
     <section
