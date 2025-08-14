@@ -28,7 +28,7 @@ export default function HomePage() {
         whatsappNumber={whatsappNumber}
         whatsappMessage={whatsappMessage}
       />
-      <TestimonialsSection />
+      {/* <TestimonialsSection /> */}
       <ContactSection
         whatsappNumber={whatsappNumber}
         whatsappMessage={whatsappMessage}

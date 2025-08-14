@@ -147,7 +147,7 @@ export function DetailsSection({
             </CardContent>
           </Card>
 
-          {/* Precios */}
+          {/* Precios
           <Card className="border-green-200 shadow-lg hover:shadow-xl transition-shadow duration-300 md:col-span-2">
             <CardHeader className="bg-green-600 text-white">
               <CardTitle className="flex items-center text-2xl">
@@ -221,7 +221,7 @@ export function DetailsSection({
                 </Button>
               </div>
             </CardContent>
-          </Card>
+          </Card> */}
         </div>
       </div>
     </section>

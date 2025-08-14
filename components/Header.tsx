@@ -43,12 +43,12 @@ export function Header({ whatsappNumber, whatsappMessage }: HeaderProps) {
             >
               Detalles
             </Link>
-            <Link
+            {/* <Link
               href="#comentarios"
               className="text-green-700 hover:text-green-600 transition-colors font-semibold"
             >
               Comentarios
-            </Link>
+            </Link> */}
             <Link
               href="#contacto"
               className="text-green-700 hover:text-green-600 transition-colors font-semibold"
