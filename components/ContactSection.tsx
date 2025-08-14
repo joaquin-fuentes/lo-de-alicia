@@ -18,7 +18,7 @@ export function ContactSection({
       id="contacto"
       className="py-20 bg-gradient-to-b from-green-600 to-emerald-700 text-white"
     >
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-5">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
             ¿Listo para tu escapada?
